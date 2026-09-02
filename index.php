@@ -48,19 +48,10 @@ require_once 'includes/header.php';
         <!-- Info Admin & Avatar -->
         <div class="admin-profile">
             <div class="admin-info">
-                <span class="admin-name"><?php echo htmlspecialchars($_SESSION['user_name']); ?></span>
-                <span class="admin-role">Administrator</span>
+                <span class="admin-name">Administrator</span>
             </div>
             <div class="admin-avatar">
-                <?php 
-                // Inisial Nama Administrator
-                $initial = '';
-                $words = explode(' ', $_SESSION['user_name']);
-                for ($i = 0; $i < min(2, count($words)); $i++) {
-                    $initial .= strtoupper(substr($words[$i], 0, 1));
-                }
-                echo htmlspecialchars($initial);
-                ?>
+                AD
             </div>
         </div>
     </div>
