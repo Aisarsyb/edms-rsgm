@@ -1,0 +1,11 @@
+# Mengabaikan konfigurasi lokal (opsional, tapi disarankan)
+# config/database.php
+
+# Jika Anda tidak ingin memindahkan file PDF yang besar ke GitHub
+# Hapus tanda pagar di bawah jika tidak ingin upload berkas fisik
+# uploads/*
+# !uploads/index.php 
+# !uploads/.htaccess
+
+# Abaikan folder .git bawaan
+.git/

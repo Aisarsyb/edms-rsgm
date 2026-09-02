@@ -1,0 +1,3 @@
+# Menjaga folder uploads tetap ada dalam repositori git jika diperlukan
+*
+!.gitkeep
