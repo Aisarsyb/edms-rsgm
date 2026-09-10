@@ -7,8 +7,9 @@ echo Memeriksa dan Mengunduh Pembaruan Terbaru...
 echo ===================================================
 echo.
 
-:: Menjalankan perintah git pull untuk menarik pembaruan
-git pull origin main
+:: Memaksa sinkronisasi dengan GitHub dan mengabaikan perubahan lokal yang tidak disengaja
+git fetch origin main
+git reset --hard origin/main
 
 echo.
 echo ===================================================
